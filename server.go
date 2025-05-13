@@ -28,7 +28,10 @@
 
 package server
 
-import ("fmt", "net/http")
+import (
+	"fmt"
+	"net/http"
+)
 
 func statusHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Running")

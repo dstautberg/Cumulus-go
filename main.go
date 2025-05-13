@@ -1,5 +1,5 @@
 package main
 
-import server
+import main.server
 
 server.run()
