@@ -25,3 +25,8 @@ coverage.out
 .env.*
 # Exclude only real env files, not .env.example
 !.env.example
+
+# SQLite database files
+*.db
+*.sqlite
+*.sqlite3
