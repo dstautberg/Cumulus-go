@@ -22,7 +22,7 @@ coverage.out
 
 # Environment files
 .env
-.env.*
+
 # Exclude only real env files, not .env.example
 !.env.example
 
