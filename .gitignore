@@ -1,0 +1,27 @@
+# Go
+bin/
+obj/
+*.exe
+*.test
+*.out
+*.log
+*.tmp
+*.swp
+*.swo
+*.db
+*.sqlite
+*.sqlite3
+*.lock
+*.bak
+*.DS_Store
+.idea/
+.vscode/
+coverage.out
+# Dependency directories (remove the comment below if you use Go modules)
+# vendor/
+
+# Environment files
+.env
+.env.*
+# Exclude only real env files, not .env.example
+!.env.example
